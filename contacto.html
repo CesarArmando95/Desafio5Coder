@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    </head>
+    <body>
+        <section class="main">
+            <header class="header"> 
+                <a href="index.html"><img src="img/logo2.png" class="header__logo"></a>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reglas.html">Reglas</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="mapa.html">¿Donde estamos?</a></li>
+                </ul>
+            </nav> 
+            <div class="formulario">
+                <form action="" method="GET" enctype="multipart/form-data">
+                    <fieldset class="formulario__datos">
+                        <legend>Datos de la persona:</legend>
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" name="nombre" placeholder="escribe tu nombre"/>
+                        </div>
+                        <div>
+                            <label for="nombre">Apellido:</label>
+                            <input type="text" name="apellido" placeholder="escribe tu apellido"/>
+                        </div>
+                        <div>
+                            <label for="nombre">Dirección:</label>
+                            <input type="text" name="direccion" placeholder="escribe tu dirección"/>
+                        </div>
+                    </fieldset>
+                    <div class="formulario__caba">
+                        <div class="horizontal">
+                            <b>Tamaño de la cabaña: &nbsp</b>
+                            <select name="registro">
+                                <option value="L">Chica</option>
+                                <option value="M">Mediana</option>
+                                <option value="S">Grande</option>
+                            </select>
+                        </div>
+                        <div class="horizontal">  
+                            <b>Elige si deseas tener internet en tu cabaña: &nbsp</b>
+                            <p>&nbsp Sin internet</p>
+                            <input type="radio" name="inter" value="si" />
+                            <p>&nbsp Con internet</p>
+                            <input type="radio" name="inter" value="ci" />
+                        </div>      
+                        <div>
+                            <b>Terminos y condiciones</b>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, modi? Dolores harum repudiandae illo 
+                                quidem, nihil accusamus, officiis magnam numquam, unde laborum beatae! Atque, rem id hic placeat ut quibusdam.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quia illo iste atque animi reprehenderit 
+                                non quas modi hic quo eos quod, velit a necessitatibus accusantium dolorem alias amet dolorum!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deleniti itaque veniam nesciunt iste, 
+                                qui error omnis voluptatibus fugit perferendis! Dicta, cum vitae autem corporis recusandae eum magni voluptates voluptatibus!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aspernatur expedita tempora sapiente libero neque fugiat 
+                                debitis sed maxime id officiis officia est possimus, a at vero temporibus deserunt?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusantium, eligendi aperiam iusto debitis non voluptatibus, 
+                                odit voluptas optio veritatis tempora magni deleniti ipsum modi voluptate a eaque minima. Molestiae?
+                            </p>
+                            <b>Acepta términos y condiciones</b>
+                            <input type="checkbox" name="acepta" value="1" />
+                        </div>  
+                        <div class="formulario__botones">
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpiar formulario</button> 
+                        </div>    
+                    </div>
+                </form>
+            </div> 
+            <footer>Footer</footer>
+        </section>
+    </body>
+</html>
