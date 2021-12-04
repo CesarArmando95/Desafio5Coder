@@ -59,6 +59,7 @@ body{
 }
 .menu ul li a:hover{
     background-color: green;
+    transform: scale(1.45,1.45);
 }
 .formulario__datos{
     display: flex;
@@ -138,7 +139,7 @@ body{
     font-size: 100%
 }
 
-@media all and (min-width: 900px){
+@media all and (min-width: 1080px){
     body{
         font-size: 120%;
     }
