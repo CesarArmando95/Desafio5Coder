@@ -92,9 +92,9 @@ body{
     height: 28px;
 }
 .formulario__caba select{
-  height:40px;
-  width:200px;
-  font-size: 130%;
+    height:40px;
+    width:200px;
+    font-size: 130%;
 }
 .formulario__botones{
     display: flex;
@@ -138,6 +138,25 @@ body{
     text-align: center;
     font-size: 100%
 }
+.anima{
+    justify-self: auto;
+    font-size: 200%;
+    color: greenyellow;
+    animation-name: moviendoM;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes moviendoM{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(35%);}
+    100%{transform: translateX(0);}
+}
+@keyframes moviendoD{
+    0%{transform: translateX(0);}
+    50%{transform: translateX(70%);}
+    100%{transform: translateX(0);}
+}
 
 @media all and (min-width: 1080px){
     body{
@@ -177,9 +196,9 @@ body{
         margin-right: 30px;
     }
     .formulario__caba{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .formulario__caba div{
         padding-right: 30px;
@@ -206,6 +225,10 @@ body{
         display: flex;
         padding: 5px;;
         justify-content: space-between;
+    }
+    .anima{
+        animation-duration: 10s;
+        animation-name: moviendoD;
     }
 }
   
